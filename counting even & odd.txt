@@ -1,0 +1,41 @@
+#include <iostream>
+#include<string>
+#include<iomanip>
+ using namespace std;
+ 
+int main() {
+    int num;
+    
+    int sumeven=0;
+    int sumodd=0;
+    bool a=true;
+    
+   
+     
+     while(a)
+     
+     {
+           cout<<"Enter the Number :";
+    cin>>num;
+   if (num==0)
+      {
+          break;
+      }
+       else if(num%2==0)
+      {
+          sumeven=sumeven+num;
+          
+      }
+     
+else
+{
+    sumodd=sumodd+num;
+}
+
+
+}
+cout<<"Sum of even numbers is :"<<sumeven<<endl;
+cout<<"Sum of odd numbers is :"<<sumodd<<endl;
+    return 0;
+    
+}

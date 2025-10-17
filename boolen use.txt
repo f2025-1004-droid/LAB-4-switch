@@ -1,0 +1,50 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include<string>
+#include<iomanip>
+ using namespace std;
+ 
+int main() {
+    int num,num1;
+    cout << "Enter the  Number:";
+    cin>>num;
+    cout<<"Enter the Number :";
+    cin>>num1;
+    int i;
+   
+     bool a =false;
+     while(!a)
+     
+     {
+         cout<<"Enter 1 for Addition:"<<endl;
+         cout<<"Enter 2 for Subtraction"<<endl;
+         cout<<"Enter 3 for Division"<<endl;
+         cout<<"Enter 4 for Multiplication"<<endl;
+         cout<<"Enter 5 for Exit"<<endl;
+          cout<<"Enter your choice:"<<endl;
+    cin>>i;
+         switch(i)
+    {
+    case 1:
+          cout<<"Addition:"<<num+num1<<endl;
+    break;
+    case 2:
+  cout<<"Subtraction:"<<num-num1<<endl;
+  break;
+    case 3:
+ cout<<"Division:"<<num/num1<<endl;  
+ break;
+    case 4:
+ cout<<"Multiplication:"<<num*num1<<endl;
+ break;
+
+    default:
+            cout<<"Exit";
+    break; 
+    
+}
+
+}
+    return 0;
+    
+}

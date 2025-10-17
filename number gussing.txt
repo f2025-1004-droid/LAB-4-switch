@@ -1,0 +1,36 @@
+#include <iostream>
+#include<string>
+#include<iomanip>
+ using namespace std;
+ 
+int main() {
+    int num;
+ bool a=true;
+ cout<<"\n---------------Guessing number Game in future Grid ICT Compition-----------\n";
+ while(a)
+ {
+    cout<<"Enter a number :";
+    cin>>num;
+    if(num==7)
+    {
+        cout<<"\n-----------conguralution! dear you have win 50000 USD------------\n  ";
+        break;
+    }
+    else if (num>=15)
+    {
+        cout<<"\n-------------Too high-------------\n";
+        
+    }
+    else if (num<=3)
+    {
+        cout<<"\n----------To low-----------------\n";
+    }
+     else
+     {
+         cout<<"\n--------You are nearly closs-----\n";
+     }
+ }
+   
+     
+    return 0;
+}
